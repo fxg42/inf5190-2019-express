@@ -1,0 +1,29 @@
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "babel-node src/app.js",
+    "watch": "babel-watch src/app.js",
+    "build": "babel src/ -d target/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-watch": "^2.0.6",
+    "body-parser": "^1.17.1",
+    "config": "^1.25.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-winston": "^2.3.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "pg": "^7.11.0",
+    "winston": "^2.3.1"
+  }
+}
